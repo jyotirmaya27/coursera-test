@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width"=device-width, initial-scale=1">
+<title>Assignment for module 2</title>
+<link href="style1.css" rel="stylesheet"
+type="text/css"/>
+</head>
+	<style>
+
+*{
+	box-sizing: border-box;
+	font-family: Helvetica;
+}
+body{
+	background-color: pink;
+	background-size: cover;
+	margin: 8px;
+	display: block;
+}
+h1{
+	text-align: center;
+	color: black;
+}
+section{
+	border: 1px solid black;
+	background-color: yellow;
+	width: 100%;
+	height: 300px;
+	position: relative;
+	overflow: auto;
+}
+p{
+	font-size: 20px;
+}
+
+#ab{
+	background-color: yellow;
+	opacity: 100%;
+	font-size: 20px;
+	font-family: 'Roboto', sans-seriff;
+}
+#bc{
+	background-color: yellow;
+	opacity: 100%;
+	font-size: 20px;
+	font-family: 'Roboto', sans-seriff;
+}
+#cd{
+
+	background-color: yellow;
+	opacity: 100%;
+	font-size: 20px;
+	font-family: 'Roboto', sans-seriff;
+}
+div{
+	display: block;
+}
+
+section>h2{
+	float: right;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	margin: 0;
+	width: 250px;
+	text-align: center;
+	font-style: italic;
+	font-size: 24px;
+	font-weight: bold;
+	height: 50px;
+	padding-top: 10px;
+}
+section.Movie1>h2{
+	background-color: orange;
+}
+section.Movie2>h2{
+	background-color: orange;
+}
+section.Movie3>h2{
+	background-color: orange;
+}
+
+.row{
+	width: 100%;
+}
+.col-sm-12{
+	width: 100%;
+}
+.col-sm-12{
+	width: 100%;
+}
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12{
+	float: left;
+}
+.col-lg-4{
+width: 33.33%;
+}
+.col-lg-1, .col-lg-2, .col-lg-3, .col.lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12{
+	float: left;
+}
+
+/**** Large devices *****/
+@media (min-width: 1200px){
+	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12{
+	float: left;
+	border: 1px solid green;
+	}
+	.col-lg-1{
+	width: 8.33%;
+	}
+	.col-lg-2{
+	width: 16.66%;
+	}
+	.col-lg-3{
+	width: 25%;
+	}
+	.col-lg-4{
+		width: 33.33%;
+	}
+	.col-lg-5{
+		width: 41.66%;
+	}
+	.col-lg-6{
+		width: 50%;
+	}
+	.col-lg-7{
+         width: 58.33%;
+	}
+	.col-lg-8{
+		width: 66.66%;
+	}
+	.col-lg-9{
+		width: 74.99%;
+	}
+	.col-lg-10{
+		width: 83.33%;
+	}
+	.col-lg-11{
+		width: 91.66%;
+	}
+	.col-lg-12{
+		width: 100%;
+	}
+}
+
+/**** Medium devices ****/
+@media (min-width: 600px) and (max-width: 1000px){
+	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+	float: left;
+	border: 1px solid green;
+	}
+	.col-md-1{
+	width: 8.33%;
+	}
+	.col-md-2{
+	width: 16.66%;
+	}
+	.col-md-3{
+	width: 25%;
+	}
+	.col-md-4{
+		width: 33.33%;
+	}
+	.col-md-5{
+		width: 41.66%;
+	}
+	.col-md-6{
+		width: 50%;
+	}
+	.col-md-7{
+         width: 58.33%;
+	}
+	.col-md-8{
+		width: 66.66%;
+	}
+	.col-md-9{
+		width: 74.99%;
+	}
+	.col-md-10{
+		width: 83.33%;
+	}
+	.col-md-11{
+		width: 91.66%;
+	}
+	.col-md-12{
+		width: 100%;
+	}
+}
+
+/**** Small Devices ****/
+
+@media (max-width: 700px){
+	.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12{
+	float: left;
+	border: 1px solid green;
+	}
+	.col-sm-1{
+	width: 8.33%;
+	}
+	.col-sm-2{
+	width: 16.66%;
+	}
+	.col-sm-3{
+	width: 25%;
+	}
+	.col-sm-4{
+		width: 33.33%;
+	}
+	.col-sm-5{
+		width: 41.66%;
+	}
+	.col-sm-6{
+		width: 50%;
+	}
+	.col-sm-7{
+         width: 58.33%;
+	}
+	.col-sm-8{
+		width: 66.66%;
+	}
+	.col-sm-9{
+		width: 74.99%;
+	}
+	.col-sm-10{
+		width: 83.33%;
+	}
+	.col-sm-11{
+		width: 91.66%;
+	}
+	.col-sm-12{
+		width: 100%;
+	}
+}
+</style>
+
+
+
+<body>
+	<h1>Information</h1>
+	<div class="row">
+		<div class="col-lg-4 col-md-6 col-sm-12">
+			<section class="Movie1">
+				<h2>Movie 1</h2>
+				<p style="color: black;">
+					Orphan is a 2009 psychological horror film directed by Jaume Collet-Serra and written by David Leslie Johnson from a story by Alex Mace.Kate and John Coleman are rebuilding their troubled marriage after the loss of their baby. The couple decide to adopt a child. When they meet 9-year-old Esther at the St. Marina Orphanage, they immediately fall in love with the well-educated orphan. Their son, Daniel is hostile to his new sister, but their deaf mute daughter, Max is enchanted with her - at first. Eventually, Kate begins to feel that Esther is manipulative and possibly even psychologically damaged. John refuses to listen to his wife's misgivings. Kate calls Sister Abigail at the orphanage, and the nun informs her that Esther has a troubled and mysterious history. Kate delves further into Esther's past and discovers she is not what she seems to be.
+
+
+				</p>
+			</section>
+		</div>
+		<div class="col-lg-4 col-md-6 col-sm-12">
+			<section class="Movie2">
+				<h2>Movie 2</h2>
+				<p style="color: black;">
+					The Conjuring 2 (known in the UK and Ireland as The Conjuring 2: The Enfield Case [4][5]) is a 2016 American supernatural horror film, directed by James Wan. The screenplay is by Chad Hayes, Carey W. Hayes, Wan, and David Leslie Johnson. It is the sequel to 2013's The Conjuring, the second installment.In 1977, paranormal investigators Ed and Lorraine Warren travel to London, England, where single mother Peggy Hodgson believes that something evil is in her home. When Peggy's youngest daughter starts showing signs of demonic possession, Ed and Lorraine attempt to help the besieged girl, only to find themselves targeted by the malicious spirits.
+
+				</p>
+			</section>
+		</div>
+		<div class="col-lg-4 col-md-6 col-sm-12">
+			<section class="Movie3">
+				<h2>Movie 3</h2>
+				<p style="color: black;">
+					Annabelle is a 2014 American supernatural horror film directed by John R. Leonetti, written by Gary Dauberman and produced by Peter Safran and James Wan. It is a prequel to 2013's The Conjuring and the second installment in the Conjuring Universe franchise. John Form has found the perfect gift for his expectant wife, Mia - a beautiful, rare vintage doll in a pure white wedding dress. But Mia's delight with Annabelle doesn't last long. On one horrific night, their home is invaded by members of a satanic cult, who violently attack the couple. Spilled blood and terror are not all they leave behind. The cultists have conjured an entity so malevolent that nothing they did will compare to the sinister conduit to the damned that is now... Annabelle.
+				</p>
+			</section>
+		</div>
+	</div>
+</body>
+</html>
